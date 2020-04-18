@@ -3,7 +3,7 @@ from selenium import webdriver
 
 def test_title(browser):
     browser.get('https://duckduckgo.com')
-    assert browser.title == u'DuckDuckGo \u2014 Privacy, simplified.'
+    assert browser.title == u'DuckZDuckGo \u2014 Privacy, simplified.'
 
 def test_logo(browser):
     browser.get('https://duckduckgo.com')
