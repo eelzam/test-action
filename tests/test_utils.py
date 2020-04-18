@@ -24,3 +24,6 @@ def test_thrice_2():
 
 def test_thrice_3():
     assert utils.thrice(-5) == -15, "thrice(-5) != -15"
+
+def test_thrice_4():
+    assert utils.thrice(-6) == -18, "thrice(-6) != -18"
